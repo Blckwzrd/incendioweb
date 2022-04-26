@@ -1,0 +1,149 @@
+a {text-decoration: none;}
+
+
+.navbar-menu {
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.navbar-menu ul {
+    /* Let's reset the margin and padding of the list so it's is flush. */
+     margin: 0;
+     padding: 0;
+     /* Let's remove the bullet points */
+     list-style-type: none;
+     /* display the list to the right */
+
+     display: flex;
+     float: right;
+     text-transform:uppercase;
+     letter-spacing: 15px;
+     font-size:xx-large;
+     font-family: fantasy;
+   }
+
+   .logo{
+       margin: 0px;
+       display: flex;
+       justify-content: center;
+       background-color: black;
+       max-width: 100%;
+       max-height: 100%;
+       
+   }
+
+   .logo2{
+       margin: 0px;
+       display: flex;
+       justify-content: center;
+       background-color: black;
+       max-width: 100%;
+       max-height: 100%;
+   }
+   .navbar-menu a {color:blanchedalmond}
+   .navbar-menu  .logo {
+    display: flex;
+    justify-content: center;
+    color: #e7e7e7;
+   /* Remove padding from top/bottom and add 24px padding right/left */
+    padding: 0 24px;
+    font-size: 24px;
+  }
+  
+  .navbar-menu ul li a {
+    color: #e7e7e7;
+    padding: 24px;
+    /*Let's make the anchor display block.
+       This will ensure when we hover, focus, or is active we get the full width and height 
+        of the container.
+    */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* When a use hovers or focuses to a link change the background */
+  .navbar-menu ul a:hover,
+  .navbar-menu ul a:focus {
+    background-color: #f36dcb;
+  }
+
+  .carouselExampleIndicators{
+    margin: auto;
+  }
+
+  .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 270px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color:rgb(212, 10, 10);
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+   .navlink{
+    font-family: fantasy;
+   }
+
+   .page-footer´{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    background-color: black;
+   }
+
+   .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:#dfb4d5;
+    background-color: black;
+    font-family: fantasy;
+  }
+
+   .footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+
+
+  p{
+    font-size: medium;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    background-color: black;
+  }
